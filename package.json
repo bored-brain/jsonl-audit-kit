@@ -49,5 +49,14 @@
     "CONTRIBUTING.md",
     "LICENSE"
   ],
+  "author": "bored-brain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bored-brain/jsonl-audit-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bored-brain/jsonl-audit-kit/issues"
+  },
+  "homepage": "https://github.com/bored-brain/jsonl-audit-kit#readme",
   "devDependencies": {}
 }
