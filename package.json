@@ -26,7 +26,7 @@
     }
   },
   "bin": {
-    "jsonl-audit": "./bin/jsonl-audit.js"
+    "jsonl-audit": "bin/jsonl-audit.js"
   },
   "types": "./types/index.d.ts",
   "engines": {
