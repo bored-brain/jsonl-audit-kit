@@ -1,6 +1,6 @@
 {
   "name": "jsonl-audit-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Audit JSONL (JSON Lines / NDJSON) files and identify invalid records with actionable line-level diagnostics. Streaming, zero-dependency, CI-friendly.",
   "keywords": [
     "jsonl",
