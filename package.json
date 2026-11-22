@@ -1,0 +1,53 @@
+{
+  "name": "jsonl-audit-kit",
+  "version": "0.1.0",
+  "description": "Audit JSONL (JSON Lines / NDJSON) files and identify invalid records with actionable line-level diagnostics. Streaming, zero-dependency, CI-friendly.",
+  "keywords": [
+    "jsonl",
+    "ndjson",
+    "json-lines",
+    "audit",
+    "validate",
+    "lint",
+    "streaming",
+    "cli",
+    "data-quality",
+    "diagnostics",
+    "json",
+    "file-validation"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./types/index.d.ts"
+    }
+  },
+  "bin": {
+    "jsonl-audit": "./bin/jsonl-audit.js"
+  },
+  "types": "./types/index.d.ts",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/validator.test.js test/cli.test.js test/edge-cases.test.js",
+    "test:watch": "node --test --watch test/validator.test.js test/cli.test.js test/edge-cases.test.js",
+    "check": "node --check src/index.js src/validator.js src/diagnostics.js bin/jsonl-audit.js",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "types/",
+    "docs/",
+    "examples/",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE"
+  ],
+  "devDependencies": {}
+}

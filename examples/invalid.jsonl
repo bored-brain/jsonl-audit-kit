@@ -1,0 +1,5 @@
+{"id":1,"event":"created","ts":"2024-01-15T08:00:00Z"}
+{"id":2,"event":
+{"id":3,"event":"deleted","ts":"2024-01-15T08:10:00Z"}
+[1,2,3]
+{"event":"updated","ts":"2024-01-15T08:15:00Z"}

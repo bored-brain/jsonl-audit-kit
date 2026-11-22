@@ -1,0 +1,25 @@
+# Dependency and runtime files
+node_modules/
+
+# Build artifacts
+*.tgz
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Temporary test directories (created and cleaned up by the test suite)
+/tmp/
